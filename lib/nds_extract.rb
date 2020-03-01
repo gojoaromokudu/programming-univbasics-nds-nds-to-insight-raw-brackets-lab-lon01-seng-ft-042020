@@ -15,6 +15,7 @@ def directors_totals(nds)
   while row_index < nds.length do 
     puts nds[row_index][:name]
     column_index = 0
+    director_sum = 0 
     while column_index < nds[row_index][:movies].length
       
       director_sum = 0 
