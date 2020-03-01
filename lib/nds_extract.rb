@@ -13,11 +13,13 @@ def directors_totals(nds)
   pp directors_database
   director_index = 0 
   while director_index < nds.length do 
+ # don't actually need this but makes it clearer   
     puts nds[director_index][:name]
     movie_index = 0
     director_sum = 0 
     while movie_index < nds[director_index][:movies].length
       director_sum += nds[director_index][:movies][movie_index][:worldwide_gross]
+ # don't actually need this but makes it clearer
       puts director_sum
       movie_index += 1 
     end
