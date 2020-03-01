@@ -29,5 +29,6 @@ end
   result[nds[row_index][:name]] = director_sum
     row_index += 1
   end
+ puts nds[row_index].length
  result
 end
