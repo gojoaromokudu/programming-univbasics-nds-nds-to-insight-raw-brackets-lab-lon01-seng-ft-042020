@@ -24,6 +24,6 @@ end
   result[nds[row_index][:name]] = director_sum
     row_index += 1
   end
- puts nds[row_index].length
+ puts nds[row_index][:movies].length
  result
 end
