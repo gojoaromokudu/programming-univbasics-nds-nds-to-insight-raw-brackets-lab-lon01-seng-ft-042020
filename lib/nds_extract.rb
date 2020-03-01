@@ -25,5 +25,5 @@ def directors_totals(nds)
   result[nds[row_index][:name]] = director_sum
     row_index += 1
   end
-  result
+return  result
 end
