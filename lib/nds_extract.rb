@@ -19,6 +19,7 @@ def directors_totals(nds)
       puts nds[row_index][:movies][column_index][:worldwide_gross]
       director_sum = 0 
       director_sum += nds[row_index][:movies][column_index][:worldwide_gross]
+      puts director_sum
       column_index += 1 
     end
     result[nds[row_index][:name]] = director_sum
