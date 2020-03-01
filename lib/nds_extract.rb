@@ -23,7 +23,7 @@ def directors_totals(nds)
   #  column_index += 1 
  # end
  # result[nds[row_index][:name]] = director_sum
- #   row_index += 1
+    row_index += 1
   end
   result
 end
