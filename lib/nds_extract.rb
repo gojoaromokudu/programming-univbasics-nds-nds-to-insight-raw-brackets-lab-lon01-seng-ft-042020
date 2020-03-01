@@ -15,7 +15,7 @@ def directors_totals(nds)
   while row_index < nds.length do 
     puts nds[row_index][:name]
  #   column_index = 0
- #   while column_index < nds[row_index].length + 1
+ #   while column_index < nds[row_index].length
  #   puts nds[row_index][:movies][column_index][:worldwide_gross]
     director_sum = 0 
     director_sum += nds[row_index][:movies][0][:worldwide_gross]
@@ -25,7 +25,5 @@ def directors_totals(nds)
   result[nds[row_index][:name]] = director_sum
     row_index += 1
   end
- 
- result["Russo Brothers"]
  result
 end
