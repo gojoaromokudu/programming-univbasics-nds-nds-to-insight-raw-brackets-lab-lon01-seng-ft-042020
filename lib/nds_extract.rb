@@ -10,7 +10,7 @@ def directors_totals(nds)
   # and total up all the
   # ...
   
- # pp directors_database
+  pp directors_database
   row_index = 0 
   while row_index < nds.length do 
     puts nds[row_index][:name]
